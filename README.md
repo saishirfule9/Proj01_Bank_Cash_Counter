@@ -1,63 +1,94 @@
-##  Bank Management System  ##
+# Bank Management System
 
-This project is a Java based Bank Management System designed to manage basic banking operations. 
-It provides a simple console interface that lets users create accounts, manage transactions and view account details.
-The goal of this project is to practice core Java concepts and understand how real banking logic can be structured in code.
+A simple Java based console application built using Maven to manage basic banking operations.
+It lets users create accounts, handle transactions, and view customer details through an interactive console menu.
 
-  * Key Features:-
+---
 
-1) Create and register new customer accounts
+## 📘 Project Overview
 
-2) Deposit and withdraw money
+The Bank Management System provides essential banking features in a simple console interface.
+It is designed to help users understand how real banking logic can be structured using core Java concepts like OOP, collections, and service classes.
 
-3) Check available balance
+------
 
-4) View customer and account details
+## ⚙️ Features
 
-5) Menu driven console interface
+Create and register customer accounts
 
+Deposit and withdraw money
 
-  * Tech Stack :-
+Check available balance
 
-1) Java
+View customer and account details
 
-2) OOP concepts
+Clean and easy to navigate console menu
 
-3) Collections and file handling depending on your version
+Simple and modular code structure that can be extended easily
 
-4) Eclipse or any Java IDE
+-----
 
+## 🧩 Technologies Used
 
- *  How to Run :- 
+Java (Core Java)
 
-1) Import the project into your Java IDE.
+Maven for project build and management
 
-2) Locate and run the main class.
+Eclipse IDE
 
-3) Use the numbered menu options to navigate through the system.
+(Optional) Collections and file handling or JDBC if extended
 
+------
 
- * Project Structure :- 
+## 📂 Project Structure
 
-1) Main class to handle user interaction
-
-2) Account class to store account information
-
-3) Customer class to store customer details
-
-4) Service classes to manage banking operations
-
-
- * Future Improvements :-
-
-1) Add database connectivity
-
-2) Add login and authentication
-
-3) Add exception handling for stronger validation
-
-4) Build a user interface
+BankManagementSystem/
+├── src/
+│ └── main/
+│ └── java/
+│ └── com/bank/
+│ ├── BankManagement.java
+│ ├── Account.java
+│ ├── Customer.java
+│ └── service/
+│ └── BankService.java
+├── pom.xml
+└── README.md
 
 
-  Summary :-  This project is a good practice model for understanding how real banking workflows can be implemented with Java logic. 
-              It helps build confidence in OOP, problem solving and clean code structure.
+----
+
+## ▶️ How to Run
+
+Clone the repository
+
+git clone https://github.com/saishirfule9/bank-management-system.git
+
+
+Open the project in Eclipse or any Java IDE
+
+Build the project using Maven
+
+Run the main class
+
+Use the menu options to create accounts, manage transactions, and view details
+
+-------
+
+💡 Future Enhancements
+
+Add database connectivity using JDBC and MySQL or Oracle
+
+Add login and authentication support
+
+Improve validation with better exception handling
+
+Build a graphical interface or integrate with a web application
+
+Extend features like transaction history, account types, and mini statements
+
+
+👤 Author
+
+Sai Shirfule
+Full Stack Developer (Java | React | Spring Boot | AWS)
