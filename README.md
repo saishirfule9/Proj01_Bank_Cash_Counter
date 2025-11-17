@@ -90,5 +90,5 @@ Extend features like transaction history, account types, and mini statements
 
 👤 Author
 
-Sai Shirfule
+**Sai Shirfule**
 Full Stack Developer (Java | React | Spring Boot | AWS)
